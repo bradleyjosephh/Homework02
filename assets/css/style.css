@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: 'IBM Plex Serif', serif;
+
+}
+
+.navbar {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    background: rgba(0,0,0,0.6) !important;
+    padding: 20px 0;
+}
+
+.navbar-dark .navbar-nav .navbar-link {
+    color: #fff;
+    padding-left: 20px;
+}
+
+.navbar-dark .navbar-nav .navbar-link.active,
+.navbar-dark .navbar-nav .navbar-link:hover {
+    color: #1ebba3;
+}
+
+.bg-dark {
+    background-color: aqua !important;
+}
+
+footer {
+    border-top: 20px solid blue;
+    color: lightblue;
+    text-align: center;
+    height: 3em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.heading-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    max-width:100%
+}
+
+
+.heading-content h5 {
+    font-size: 4em;
+    font-weight: 300;
+    color: #fff;
+}
+
+
+
+.heading-content h1 {
+    font-size: 5em;
+    font-weight: bolder;
+    color: #fff;
+
+}
+
+.heading-content p {
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: lighter;
+    color: #ccc;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+
+.container {
+    display: block;
+    width: 100%;
+    height: atuo;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+div {
+    background-color: lightblue;
+}
