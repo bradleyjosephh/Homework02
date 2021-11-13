@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
 body {
   margin: 0;
   padding: 0;
@@ -85,6 +85,3 @@ footer {
     height: auto;
 }
 
-div {
-    background-color: lightblue;
-}
