@@ -71,3 +71,10 @@ h3 {
     color: #000;
     padding: 2px;
 }
+
+.head {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
