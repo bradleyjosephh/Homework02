@@ -18,21 +18,20 @@ body {
 }
 
 .navbar-dark .navbar-nav .navbar-link {
-    color: #fff;
+    color: #000;
     padding-left: 20px;
 }
 
 .navbar-dark .navbar-nav .navbar-link.active .navbar-dark .navbar-nav .navbar-link:hover {
-    color: #1ebba3;
+    color: #161925;
 }
 
 .bg-dark {
-    background-color: aqua !important;
+    background-color: #161925 !important;
 }
 
 footer {
-    border-top: 20px solid blue;
-    color: lightblue;
+    color: #161925;
     text-align: center;
     height: 3em;
     position: fixed;
@@ -41,40 +40,34 @@ footer {
 }
 
 .heading-content {
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    max-width: 100%
+    display: flex;
+    flex-direction: column;
+    font-style:normal #000;
+    border: black double 10px;
+    padding: 5px;
+    background-color: #8EA8C3;
 }
 
-.heading-content h5 {
-    font-size: 4em;
-    font-weight: 300;
-    color: #fff;
-}
-
-.heading-content h1 {
-    font-size: 5em;
-    font-weight: bolder;
-    color: #fff;
-}
-
-.heading-content p {
-    font-size: 1em;
-    text-transform: uppercase;
-    font-weight: lighter;
-    color: #ccc;
-    word-spacing: 5px;
-    letter-spacing: 2px;
-}
 
 .container {
     display: block;
     width: 100%;
-    height: atuo;
+    height: auto;
+    margin-bottom: 150px;
 }
 
 .img-fluid {
     max-width: 100%;
     height: auto;
+}
+
+h1 {
+    font-weight: 700;
+    font-style: normal #161925;
+}
+
+h3 {
+    font-weight: 500;
+    color: #000;
+    padding: 2px;
 }
